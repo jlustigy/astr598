@@ -1,0 +1,13 @@
+Discription:
+	This python program calculates the gravitational force between two particles. 
+	It relies only on python-2.7 to run. 
+
+Files:
+	particles.py: 
+		This file contains the classes Position, Velocity, and Particle.
+	myprogram.py: 
+		This file initializes two particles and calculates the force between them. 
+
+Usage:
+	$ python myprogram.py
+	
