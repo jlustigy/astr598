@@ -1,4 +1,4 @@
-Discription:
+Description:
 	This python program initializes an empty LinkedList, inserts 3 values at the head, deletes one value at the head, and inserts 3 values at the tail. It also prints at each step so the user can verify that it is working correctly. 
 
 Files:
