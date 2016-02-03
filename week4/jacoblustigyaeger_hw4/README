@@ -1,0 +1,21 @@
+Description:
+    This python program initializes an empty queue, adds 10 random integers (between 0-100) to the queue, then one at a time gets a value from the queue and prints it for the user. 
+    
+Files:
+    queue.py: 
+        Contains the Node and Queue classes. 
+    myprogram.py: 
+        Run this python program to execute the behavior described in the description.
+
+Usage:
+    1. Log into hyak:
+        $ ssh <username>@hyak.washington.edu
+    2. Enter an interactive session:
+        $ qsub -I
+    3. Load anaconda 2.4
+        $ module load anaconda_2.4
+    4. Move to directory containing these files:
+        $ cd to/this/directory
+    5. Run python code:
+        $ python myprogram.py
+
