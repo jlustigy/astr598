@@ -1,0 +1,34 @@
+Description:
+-----------
+    This python program runs and tests the mergesort algorithm.  
+    
+Files:
+-----
+    mergesort.py: 
+        Contains the functions merge, sort, and mergesort. Calling mergesort(array) on an array
+        will return the sorted array.
+    myprogram.py: 
+        Contains functions to run and test mergesort. The function run_mergesort(N) generates an array
+        of N random integers and uses mergesort to sort it, returning both unsorted and sorted arrays.
+        The function plot_results() plots the average runtime vs NlogN for three runs of 
+        N = [1e2,1e4,1e6,1e8]. 
+
+Usage:
+-----
+    1. Log into hyak:
+        $ ssh <username>@hyak.washington.edu
+    2. Enter an interactive session:
+        $ qsub -I -l walltime=3:00:00
+    3. Load anaconda 2.4
+        $ module load anaconda_2.4
+    4. Move to directory containing these files:
+        $ cd to/this/directory
+    5. Run mergesort code:
+        $ python
+        >>> from myprogram import run_mergesort  
+        >>> N = 1e2
+        >>> original_arr, sorted_arr = run_mergesort(N)
+    6. Produce runtime plot (will take ~1.5 hours):
+        $ python
+        >>> from myprogram import plot_results
+        >>> plot_results()
