@@ -1,0 +1,23 @@
+Description:
+-----------
+    This python program initializes an empty Binary Search Tree (BST), inserts 100 random integers (between 0-99) into the BST, then prints the integers in order by calling traverse_in_order.  
+    
+Files:
+-----
+    BST.py: 
+        Contains the Node and BinarySearchTree classes, along with the recursive functions for navigating the tree.
+    myprogram.py: 
+        Run this python program to execute the behavior described in the description.
+
+Usage:
+-----
+    1. Log into hyak:
+        $ ssh <username>@hyak.washington.edu
+    2. Enter an interactive session:
+        $ qsub -I
+    3. Load anaconda 2.4
+        $ module load anaconda_2.4
+    4. Move to directory containing these files:
+        $ cd to/this/directory
+    5. Run python code:
+        $ python myprogram.py
